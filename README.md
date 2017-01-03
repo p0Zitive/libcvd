@@ -1,4 +1,5 @@
 # libCVD
+By p0zzy: Mac os Sierra compilation support.
 
 Note, the master branch is now libCVD-2.0 which is in beta and requires C++14.
 
@@ -7,6 +8,10 @@ Note, the master branch is now libCVD-2.0 which is in beta and requires C++14.
 To install on a unix system:
 
 ./configure && make && sudo make install
+
+### Important update!
+To configure on a mac system:
+./configure_osx
 
 To verify that a few things work, you can optioinally run
 
